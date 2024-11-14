@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA HUB</title>
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLRerp9JflDzHEPeKM15u1Z1VR9atHfH3AWQ&s"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="nav">
+        <h1>Pizza Hub</h1>
+        <div id="nav-part2">
+            <div id="link">
+                <a href="#">MENU</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a>
+                <a href="#">LOCATION</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="cursor"></div>
+    <div id="main">
+        <div id="page1">
+            <h1>Welcome To </h1>
+            <h2>Pizza Hub.</h2>
+            <div id="video-container">
+                <div id="play">Play</div>
+                <video autoplay loop muted src="video.mp4">
+                </video>
+            </div>
+        </div>
+
+        <div id="page2">
+            <div id="elem1" class="elem">
+                <img data-scroll data-scroll-speed="2" src="/photos/pizza1.jpeg" alt="">
+            </div>
+            <div id="elem2" class="elem">
+                <img data-scroll data-scroll-speed="2" src="photos/pizza3.jpeg" alt="">
+            </div>
+            <div id="elem3" class="elem">
+                <img data-scroll data-scroll-speed="2" src="photos/pizza2.jpeg" alt="">
+            </div>
+        </div>
+
+        <div id="page3">
+            <!-- .child#child$*4 -->
+            <div class="child" id="child1">
+                <img src="photos/burger1.png" alt="">
+            </div>
+            <div class="child" id="child2">
+                <img src="photos/burger6.png" alt="">
+            </div>
+            <div class="child" id="child3">
+                <img src="photos/burger0.png" alt="">
+            </div>
+            <div class="child" id="child4">
+                <img src="photos/burger5.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Locomotive -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Scroll Trigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- script.js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!--
+I Use :-
+1. gsap cdn.
+2. Locomotive Js cdn.
+3. Go to locomootive js GitHub and then copy the code of smooth.
+4.For Icons:- Remix Icon.com
+-->
